@@ -17,5 +17,8 @@
   ],
   "styles": [
     "styles/hide-hotbar.css"
-  ]
+  ],
+  "url": "https://github.com/Tony-Gan/hide-hotbar",
+  "manifest": "https://github.com/Tony-Gan/hide-hotbar/releases/latest/download/module.json",
+  "download": "https://github.com/Tony-Gan/hide-hotbar/releases/latest/download/module.zip"
 }
