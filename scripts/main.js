@@ -65,9 +65,8 @@ function _applyHotbarVisibility() {
 
   document.body.classList.toggle("hh-hotbar-hidden", !show);
 
-  if (ui.hotbar?.element) {
-    ui.hotbar.element.toggle(show);
-  }
+  const hotbarEl = ui.hotbar?.element;
+  if (hotbarEl) hotbarEl.style.display = show ? "" : "none";
 
   if (!show && blockKeys) _enableKeyBlocker();
   else _disableKeyBlocker();
